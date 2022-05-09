@@ -77,12 +77,14 @@ main {
     font-size: 80px;
     font-family: 'Bangers', cursive;
     letter-spacing: 1.2rem;
+    animation: slideInLeft 0.8s forwards;
 }
 
 .section1__h2{
     font-family: 'Bangers', cursive;
     letter-spacing: 1.2rem;
     font-size: 35px;
+    animation: slideInRight 0.8s forwards;
 }
 
 .section1__h3{
@@ -90,6 +92,7 @@ main {
     font-size: 20px;
     letter-spacing: 0.2rem;
     margin-bottom: 4rem;
+    animation: slideInLeft 0.8s forwards;
 }
 
 .section2 {
@@ -114,6 +117,7 @@ main {
     font-size: 40px;
     margin-top: 4rem;
     margin-bottom: 3rem;
+    animation: fadeIn 2s;
 }
 
 .section2__gridimg {
@@ -254,6 +258,7 @@ main {
     letter-spacing: 0.4rem;
     font-size: 38px;
     color:goldenrod;
+    animation: slideInLeft 0.8s forwards;
 }
 
 .section3__div1--p {
@@ -302,7 +307,7 @@ main {
     margin-bottom: 3rem;
     font-family: 'Bangers', cursive;
     color: goldenrod;
-
+    animation: slideInTop 0.8s forwards;
 }
 
 .section4__titulo {
@@ -312,6 +317,7 @@ main {
     font-size: 24px;
     padding-left: 15rem;
     color: goldenrod;
+    animation: slideInLeft 0.8s forwards;
 }
 
 .section4__div1 {
@@ -481,6 +487,39 @@ main {
 .footer__rrsslogo{
     height: 100%;
     width: 100%;
+}
+
+@keyframes slideInLeft{
+    0% {
+        transform: translateX(-100%)
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+@keyframes slideInRight{
+    0% {
+        transform: translateX(100%)
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+@keyframes slideInTop{
+    0% {
+        transform: translateY(-900px)
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width: 1023px) {
