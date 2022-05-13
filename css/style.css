@@ -408,8 +408,9 @@ a:hover {
 }
 
 .section5__map--img {
-    height: 50vh;
+    height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 .section5__contact {
     height: 50vh;
@@ -425,8 +426,8 @@ a:hover {
 .section5__titulo {
     width: 100%;
     font-size: 32px;
-    margin-top: 2rem;
-    margin-bottom: 3.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     padding-left: 2rem;
 }
 
@@ -487,7 +488,7 @@ a:hover {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     color: goldenrod;
-    padding-left: 1rem;
+    padding-left: 1.2rem;
     padding-right: 1rem;
 }
 @keyframes slideInLeft{
@@ -703,12 +704,12 @@ a:hover {
         height: 100%;
         width: 100%;
         flex: 1;
+        padding-top: 12vh;
     }
     
     .section5__map--img {
         object-fit: cover;
-        padding-top: 12vh;
-        
+        height: 50vh;
     }
     .section5__contact {
         height: 100%;
@@ -759,29 +760,22 @@ a:hover {
         height: 2.5rem;
         width: 5rem;
     }
-    .footer__marca {
-        height: 80px;
-        width: 80px;
-        margin-left: 2rem;
+    .footer_div {
+        height: 5rem;
+        width: 65%;
     }
-    .footer__rights{
-        font-size: 12px;
-        margin-left: 1.5rem;
-        width: 25rem;
+    .footer__logo {
+        height: 75px;
+        width: 75px;
     }
-    .footer__rrssdiv {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        height: 2rem;
-        margin-right: 1rem;
-        margin-top: 1rem;
-        margin-bottom: 0.6rem;
-        width: 120px;
+    .footer__rrsslogo{
+        height: 25px;
+        width: 25px;
+        color: goldenrod;
     }
-    .footer__rrsslink{
-        width: 1.8rem;
-        height: 1.8rem;
+    .footer__rights {
+        font-size: 10px;
+        padding-right: 1.3rem;
     }
 }
 @media screen and (max-width: 600px) {
@@ -1014,11 +1008,12 @@ a:hover {
         height: 100%;
         width: 100%;
         flex: 1;
+        padding-top: 11vh;
     }
     
     .section5__map--img {
-        object-fit: cover;
-        padding-top: 10vh;
+        height: 45vh;
+        padding-top: 0;
         
     }
     .section5__contact {
@@ -1071,33 +1066,39 @@ a:hover {
         width: 5rem;
     }
     .footer {
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: space-between;
+        min-height: 10vh;
+        margin-bottom: 1rem;
     }
-    .footer_div{
+    .footer_div {
+        height: 5rem;
+        width: 100%;
         flex-direction: column;
+    }
+    .footer__link {
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+    .footer__logo {
+        height: 75px;
+        width: 75px;
+    }
+    .footer__rrsslogo{
+        height: 20px;
+        width: 20px;
+        color: goldenrod;
+    }
+    .footer__ig {
+        margin-left: 0;
     }
     .footer__rights {
-        width: 100%;
-        font-size: 5px;
+        font-size: 8px;
+        margin-top: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
-    .footer__rrssdiv {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        height: 2rem;
-        margin-right: 0;
-        margin-top: 1rem;
-        margin-bottom: 0.6rem;
-        width: 120px;
-    }
-    .footer__marca {
-        height: 90px;
-        width: 90px;
-        margin-left: 0rem;
-    }
-    .footer__rrsslink{
-        width: 1.2rem;
-        height: 1.2rem;
+    .footer_ul {
+        margin-bottom: 0.5rem;
     }
 }
