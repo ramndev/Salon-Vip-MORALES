@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: #000;
+}
 main {
     min-height: 100vh;
 }
@@ -43,9 +45,12 @@ main {
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;;
+    justify-content: space-between;
+    margin-bottom: 0;
 }
-
+a:hover {
+    color: white;
+}
 .nav__item {
     margin-left: 5rem;
 }
@@ -74,24 +79,38 @@ main {
 }
 
 .section1__h1 {
+    width: 100%;
+    text-align: center;
     font-size: 80px;
     font-family: 'Bangers', cursive;
     letter-spacing: 1.2rem;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 0;
     animation: slideInLeft 0.8s forwards;
 }
 
 .section1__h2{
+    width: 100%;
+    text-align: center;
     font-family: 'Bangers', cursive;
     letter-spacing: 1.2rem;
     font-size: 35px;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 0;
     animation: slideInRight 0.8s forwards;
 }
 
 .section1__h3{
+    width: 100%;
+    text-align: center;
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 20px;
     letter-spacing: 0.2rem;
     margin-bottom: 4rem;
+    font-weight: bold;
+    line-height: normal;
     animation: slideInLeft 0.8s forwards;
 }
 
@@ -444,51 +463,33 @@ main {
     width: 5rem;
 }
 .footer {
-    background-color: #000;
-    color: #FFD700;
-    padding: 0.2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 14vh;
+    border-top: 1px solid goldenrod;
+    margin-bottom: 0;
+    margin-top: 1.5rem;
 }
-
-.footer__marca {
-    height: 100px;
-    width: 100px;
-    margin-left: 4rem;
+.footer_ul {
+    margin-right: 0;
 }
-
+.footer_div {
+    height: 5rem;
+    width: 40%;
+}
 .footer__logo {
-    height: 100%;
-    width: 100%;
+    height: 80px;
+    width: 80px;
 }
-
-.footer__rights {
-    height: 100%;
-    width: 33rem;
-    margin-left: 4rem;
-    font-family: 'Poppins', sans-serif;
-}
-
-.footer__rrssdiv {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 12rem;
-    height: 3rem;
-    margin-right: 4rem;
-}
-.footer__rrsslink{
-    width: 3rem;
-    height: 3rem;
-}
-
 .footer__rrsslogo{
-    height: 100%;
-    width: 100%;
+    height: 30px;
+    width: 30px;
+    color: goldenrod;
 }
-
+.footer__rights {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: goldenrod;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 @keyframes slideInLeft{
     0% {
         transform: translateX(-100%)
@@ -525,6 +526,12 @@ main {
 @media screen and (max-width: 1023px) {
     .nav {
         display: none;
+    }
+    .header {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        z-index: 100;
     }
     .header__open {
         display: block;
@@ -1065,14 +1072,14 @@ main {
     }
     .footer {
         flex-direction: column;
+        justify-content: space-between;
+    }
+    .footer_div{
+        flex-direction: column;
     }
     .footer__rights {
-        font-size: 9.5px;
         width: 100%;
-        margin-left: 0;
-        order: 3;
-        text-align: center;
-        height: 2rem;
+        font-size: 5px;
     }
     .footer__rrssdiv {
         display: flex;
