@@ -571,6 +571,7 @@ a:hover {
     }        
     .section1__h1 {
         font-size: 70px;
+        letter-spacing: 1rem;
     }
     .section1__h2{
         font-size: 30px;
@@ -831,17 +832,18 @@ a:hover {
         width: 100%;
     }
     .section1__h1 {
-        font-size: 40px;
-        letter-spacing: 1rem;
+        font-size: 60px;
+        letter-spacing: 0.5rem;
     }
     
     .section1__h2{
-        font-size: 20px;
-        letter-spacing: 1rem;
+        font-size: 35px;
+        letter-spacing: 0.5rem;
     }
     
     .section1__h3{
-        font-size: 10px;
+        font-size: 12px;
+        letter-spacing: 0.1rem;
     }
     .section2__h2 {
         letter-spacing: 0.2rem;
