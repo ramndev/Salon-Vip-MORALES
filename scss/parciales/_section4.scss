@@ -1,0 +1,74 @@
+.section4 {
+    color: whitesmoke;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 78.59px;
+    background-color: $color-fondo;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    &__h2 {
+        letter-spacing: 0.5rem;
+        font-size: 38px;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        font-family: $font-titulos;
+        color: $color-tipografia;
+        animation: slideInTop 0.8s forwards;
+    }
+    &__titulo {
+        letter-spacing: 0.3rem;
+        width: 100%;
+        font-family: $font-titulos;
+        font-size: 24px;
+        padding-left: 15rem;
+        color: $color-tipografia;
+        animation: slideInLeft 0.8s forwards;
+    }
+    &__div1 {
+        height: 40%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 1.6rem;
+        margin-top: 1rem;
+    }
+    &__img {
+        height: 100%;
+        width: 40%;
+        margin-left: 12rem;
+        border-radius: 5%;
+    }
+    &__div1--p {
+        height: 100%;
+        width: 30%;
+        line-height: 2rem;
+        margin-left: 2rem;
+        font-family: $font-p;
+        font-size: 20px;
+    }
+    &__div2 {
+        height: 40%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+    &__div2--p {
+        height: 100%;
+        width: 30%;
+        line-height: 2rem;
+        margin-left: 2rem;
+        font-family: $font-p;
+        font-size: 20px;
+    }
+}

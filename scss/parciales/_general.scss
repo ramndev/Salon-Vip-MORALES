@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $color-fondo;
+}
+main {
+    min-height: 100vh;
+}
+ul {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+h1 {
+    display: inline;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 0;
+}
+h2 {
+    display: inline;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 0;
+}
+h3 {
+    display: inline;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 0;
+}

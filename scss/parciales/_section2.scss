@@ -1,0 +1,129 @@
+.section2 {
+    color: $color-titulos;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 78.59px;
+
+    background-image: url(../images/barbershop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    &__h2 {
+        font-family: $font-titulos;
+        letter-spacing: 1rem;
+        font-size: 40px;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+        animation: fadeIn 2s;
+    }
+    &__gridimg {
+        padding: 1rem;
+        width: 90%;
+        margin-bottom: 2rem;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: repeat(2,2fr);
+        grid-column-gap: 0.2rem;
+        grid-row-gap: 0.2rem;
+        justify-content: center;
+    
+        grid-template-areas: "img1 img2 img3 img4" "img5 img6 img7 img8";
+    }
+    &__divimg1 {
+        height: 100%;
+        width: 100%;
+        border: solid 3px $color-tipografia;
+        grid-area: img1;
+        border-radius: 5%;
+        overflow: hidden;
+        &:hover .section2__img {
+            transform: scale(1.1);
+        }
+    }
+    &__divimg2 {
+        grid-area: img2;
+        height: 100%;
+        width: 100%;
+        border: solid 3px $color-tipografia;
+        border-radius: 5%;
+        overflow: hidden;
+        &:hover .section2__img {
+            transform: scale(1.1);
+        }
+    }
+    &__divimg3 {
+        grid-area: img3;
+        height: 100%;
+        width: 100%;
+        border: solid 3px $color-tipografia;
+        border-radius: 5%;
+        overflow: hidden;
+        &:hover .section2__img {
+            transform: scale(1.1);
+        }
+    }
+    &__divimg4 {
+        grid-area: img4;
+        height: 100%;
+        width: 100%;
+        border: solid 3px $color-tipografia;
+        border-radius: 5%;
+        overflow: hidden;
+        &:hover .section2__img {
+            transform: scale(1.1);
+        }
+    }
+    &__divimg5 {
+        grid-area: img5;
+        height: 100%;
+        width: 100%;
+        border: solid 3px $color-tipografia;
+        border-radius: 5%;
+        overflow: hidden;
+        &:hover .section2__img {
+            transform: scale(1.1);
+        }
+    }
+    &__divimg6 {
+        grid-area: img6;
+        height: 100%;
+        width: 100%;
+        border: solid 3px $color-tipografia;
+        border-radius: 5%;
+        overflow: hidden;
+        &:hover .section2__img {
+            transform: scale(1.1);
+        }
+    }
+    &__divimg7 {
+        grid-area: img7;
+        height: 100%;
+        width: 100%;
+        border: solid 3px $color-tipografia;
+        border-radius: 5%;
+        overflow: hidden;
+        &:hover .section2__img {
+            transform: scale(1.1);
+        }
+    }
+    &__divimg8 {
+        grid-area: img8;
+        height: 100%;
+        width: 100%;
+        border: solid 3px $color-tipografia;
+        border-radius: 5%;
+        overflow: hidden;
+        &:hover .section2__img {
+            transform: scale(1.1);
+        }
+    }
+    &__img{
+        height: 100%;
+        width: 100%;
+        transition: 0.5s all ease-in-out;
+    }
+}
