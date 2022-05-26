@@ -40,15 +40,12 @@ h3 {
   align-items: center;
   position: fixed;
   width: 100%; }
-  
   .header__open {
     display: none; }
-  
   .header__marca {
     width: 128px;
     height: 69px;
     margin-left: 3rem; }
-  
   .header__logo {
     height: 100%;
     width: 100%; }
@@ -56,20 +53,16 @@ h3 {
 .nav {
   padding: 0.2rem;
   margin-right: 5rem; }
-  
   .nav__lista {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 0; }
-  
   .nav__item {
     margin-left: 5rem; }
-    
     .nav__item--close {
       display: none; }
-  
   .nav__enlace {
     color: #fff;
     text-decoration: none;
@@ -92,7 +85,6 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
-  
   .section1__h1 {
     width: 100%;
     text-align: center;
@@ -103,7 +95,6 @@ a:hover {
     line-height: normal;
     margin-bottom: 0;
     animation: slideInLeft 0.8s forwards; }
-  
   .section1__h2 {
     width: 100%;
     text-align: center;
@@ -114,7 +105,6 @@ a:hover {
     line-height: normal;
     margin-bottom: 0;
     animation: slideInRight 0.8s forwards; }
-  
   .section1__h3 {
     width: 100%;
     text-align: center;
@@ -139,7 +129,6 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
-  
   .section2__h2 {
     font-family: "Bangers", cursive;
     letter-spacing: 1rem;
@@ -147,7 +136,6 @@ a:hover {
     margin-top: 4rem;
     margin-bottom: 3rem;
     animation: fadeIn 2s; }
-  
   .section2__gridimg {
     padding: 1rem;
     width: 90%;
@@ -159,7 +147,6 @@ a:hover {
     grid-row-gap: 0.2rem;
     justify-content: center;
     grid-template-areas: "img1 img2 img3 img4" "img5 img6 img7 img8"; }
-  
   .section2__divimg1 {
     height: 100%;
     width: 100%;
@@ -167,88 +154,72 @@ a:hover {
     grid-area: img1;
     border-radius: 5%;
     overflow: hidden; }
-    
     .section2__divimg1:hover .section2__img {
       transform: scale(1.1); }
-  
-    .section2__divimg2 {
+  .section2__divimg2 {
     grid-area: img2;
     height: 100%;
     width: 100%;
     border: solid 3px goldenrod;
     border-radius: 5%;
     overflow: hidden; }
-    
     .section2__divimg2:hover .section2__img {
       transform: scale(1.1); }
-  
-    .section2__divimg3 {
+  .section2__divimg3 {
     grid-area: img3;
     height: 100%;
     width: 100%;
     border: solid 3px goldenrod;
     border-radius: 5%;
     overflow: hidden; }
-    
     .section2__divimg3:hover .section2__img {
       transform: scale(1.1); }
-  
-    .section2__divimg4 {
+  .section2__divimg4 {
     grid-area: img4;
     height: 100%;
     width: 100%;
     border: solid 3px goldenrod;
     border-radius: 5%;
     overflow: hidden; }
-    
     .section2__divimg4:hover .section2__img {
       transform: scale(1.1); }
-  
-    .section2__divimg5 {
+  .section2__divimg5 {
     grid-area: img5;
     height: 100%;
     width: 100%;
     border: solid 3px goldenrod;
     border-radius: 5%;
     overflow: hidden; }
-    
     .section2__divimg5:hover .section2__img {
       transform: scale(1.1); }
-  
-    .section2__divimg6 {
+  .section2__divimg6 {
     grid-area: img6;
     height: 100%;
     width: 100%;
     border: solid 3px goldenrod;
     border-radius: 5%;
     overflow: hidden; }
-    
     .section2__divimg6:hover .section2__img {
       transform: scale(1.1); }
-  
-    .section2__divimg7 {
+  .section2__divimg7 {
     grid-area: img7;
     height: 100%;
     width: 100%;
     border: solid 3px goldenrod;
     border-radius: 5%;
     overflow: hidden; }
-    
     .section2__divimg7:hover .section2__img {
       transform: scale(1.1); }
-  
-    .section2__divimg8 {
+  .section2__divimg8 {
     grid-area: img8;
     height: 100%;
     width: 100%;
     border: solid 3px goldenrod;
     border-radius: 5%;
     overflow: hidden; }
-    
     .section2__divimg8:hover .section2__img {
       transform: scale(1.1); }
-  
-    .section2__img {
+  .section2__img {
     height: 100%;
     width: 100%;
     transition: 0.5s all ease-in-out; }
@@ -265,20 +236,16 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
-  
   .section3__animation--left {
     animation: slideInLeft 0.8s forwards; }
-  
   .section3__animation--right {
     animation: slideInRight 0.8s forwards; }
-  
   .section3__div1--h2 {
     font-family: "Bangers", cursive;
     letter-spacing: 0.4rem;
     font-size: 38px;
     color: goldenrod;
     border-color: goldenrod !important; }
-  
   .section3__div1--p {
     font-family: "Poppins", sans-serif;
     width: 100%;
@@ -286,7 +253,6 @@ a:hover {
     line-height: 1.7rem;
     color: whitesmoke;
     font-size: 18px; }
-  
   .section3__div2--p {
     font-family: "Poppins", sans-serif;
     width: 100%;
@@ -294,7 +260,6 @@ a:hover {
     margin-bottom: 1.3rem;
     color: whitesmoke;
     font-size: 16px; }
-  
   .section3__div2--h3 {
     font-family: "Bangers", cursive;
     letter-spacing: 0.4rem;
@@ -315,7 +280,6 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
-  
   .section4__h2 {
     letter-spacing: 0.5rem;
     font-size: 38px;
@@ -324,7 +288,6 @@ a:hover {
     font-family: "Bangers", cursive;
     color: goldenrod;
     animation: slideInTop 0.8s forwards; }
-  
   .section4__titulo {
     letter-spacing: 0.3rem;
     width: 100%;
@@ -333,7 +296,6 @@ a:hover {
     padding-left: 15rem;
     color: goldenrod;
     animation: slideInLeft 0.8s forwards; }
-  
   .section4__div1 {
     height: 40%;
     width: 100%;
@@ -343,13 +305,11 @@ a:hover {
     align-items: center;
     margin-bottom: 1.6rem;
     margin-top: 1rem; }
-  
   .section4__img {
     height: 100%;
     width: 40%;
     margin-left: 12rem;
     border-radius: 5%; }
-  
   .section4__div1--p {
     height: 100%;
     width: 30%;
@@ -357,7 +317,6 @@ a:hover {
     margin-left: 2rem;
     font-family: "Poppins", sans-serif;
     font-size: 20px; }
-  
   .section4__div2 {
     height: 40%;
     width: 100%;
@@ -367,7 +326,6 @@ a:hover {
     align-items: center;
     margin-top: 1rem;
     margin-bottom: 3rem; }
-  
   .section4__div2--p {
     height: 100%;
     width: 30%;
@@ -388,18 +346,15 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
-  
   .section5__map {
     height: 50vh;
     width: 100%;
     flex: 1;
     align-self: center; }
-    
     .section5__map--img {
       height: 100%;
       width: 100%;
       overflow: hidden; }
-      
   .section5__contact {
     height: 50vh;
     width: 100%;
@@ -409,20 +364,17 @@ a:hover {
     background-color: goldenrod;
     align-self: center;
     color: white; }
-    
     .section5__contact--span {
       width: 100%;
       font-size: 24px;
       margin-bottom: 1rem;
       padding-left: 1rem; }
-  
   .section5__titulo {
     width: 100%;
     font-size: 32px;
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding-left: 2rem; }
-  
   .section5__form {
     height: 50vh;
     flex: 1;
@@ -430,17 +382,14 @@ a:hover {
     flex-direction: column;
     align-self: center;
     background-color: gray; }
-    
     .section5__form--lbl {
       width: 50%;
       margin-bottom: 0.7rem;
       margin-left: 1rem;
       height: 2rem; }
-    
     .section5__form--lbl2 {
       height: 5rem;
       text-align: start; }
-    
     .section5__form--button {
       height: 2.5rem;
       width: 5rem; }
@@ -449,23 +398,23 @@ a:hover {
   border-top: 1px solid goldenrod;
   margin-bottom: 0;
   margin-top: 1.5rem; }
-  
   .footer_ul {
     margin-right: 0; }
-  
   .footer_div {
     height: 5rem;
     width: 40%; }
-  
   .footer__logo {
     height: 80px;
     width: 80px; }
-  
   .footer__rrsslogo {
     height: 30px;
-    width: 30px;
+    width: 30px; }
+  .footer__color--instagram {
     color: goldenrod; }
-  
+  .footer__color--facebook {
+    color: goldenrod; }
+  .footer__color--whatsapp {
+    color: goldenrod; }
   .footer__rights {
     font-family: "Poppins", sans-serif;
     font-size: 12px;

@@ -20,9 +20,12 @@
     &__rrsslogo{
         height: 30px;
         width: 30px;
-        color: $color-tipografia;
     }
-
+    @each $name-color, $logocolor in $colorrrss {
+        &__color--#{$name-color} {
+            color: $logocolor
+        }
+    }
     &__rights {
         font-family: $font-p;
         font-size: 12px;
