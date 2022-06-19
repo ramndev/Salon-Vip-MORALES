@@ -1,5 +1,3 @@
-/* Caracteristicas Generales*/
-
 * {
   padding: 0;
   margin: 0;
@@ -32,8 +30,6 @@ h3 {
   font-weight: bold;
   line-height: normal;
   margin-bottom: 0; }
-
-/* Header y NAV BAR */
 
 .header {
   background-color: rgba(0, 0, 0, 0.7);
@@ -77,8 +73,6 @@ h3 {
 a:hover {
   color: white; }
 
-/* Seccion 1 - Pagina index.html*/
-
 .section1 {
   color: #FFD700;
   width: 100%;
@@ -114,8 +108,6 @@ a:hover {
     line-height: normal;
     animation: slideInLeft 0.8s forwards; }
 
-/* Seccion 2 - Pagina galeria.html*/
-
 .section2 {
   color: #FFD700;
   width: 100%;
@@ -128,19 +120,14 @@ a:hover {
   background-image: url(../images/barbershop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; 
-}
+  background-position: center; }
   .section2__h2 {
     font-family: "Bangers", cursive;
     letter-spacing: 1rem;
     font-size: 40px;
     margin-top: 4rem;
     margin-bottom: 3rem;
-    animation: fadeIn 2s; 
-  }
-
-/* Seccion 2 - Galeria con Animaciones*/
-
+    animation: fadeIn 2s; }
   .section2__gridimg {
     padding: 1rem;
     width: 90%;
@@ -151,103 +138,83 @@ a:hover {
     grid-column-gap: 0.2rem;
     grid-row-gap: 0.2rem;
     justify-content: center;
-    grid-template-areas: "img1 img2 img3 img4" "img5 img6 img7 img8"; 
-  }
+    grid-template-areas: "img1 img2 img3 img4" "img5 img6 img7 img8"; }
   .section2__divimg1 {
     height: 100%;
     width: 100%;
     border: solid 3px goldenrod;
     grid-area: img1;
     border-radius: 5%;
-    overflow: hidden; 
-  }
+    overflow: hidden; }
     .section2__divimg1:hover .section2__img {
-      transform: scale(1.1); 
-    }
+      transform: scale(1.1); }
   .section2__divimg2 {
     grid-area: img2;
     height: 100%;
     width: 100%;
     border: solid 3px goldenrod;
     border-radius: 5%;
-    overflow: hidden; 
-  }
+    overflow: hidden; }
     .section2__divimg2:hover .section2__img {
-      transform: scale(1.1); 
-    }
+      transform: scale(1.1); }
   .section2__divimg3 {
     grid-area: img3;
     height: 100%;
     width: 100%;
     border: solid 3px goldenrod;
     border-radius: 5%;
-    overflow: hidden; 
-  }
+    overflow: hidden; }
     .section2__divimg3:hover .section2__img {
-      transform: scale(1.1); 
-    }
+      transform: scale(1.1); }
   .section2__divimg4 {
     grid-area: img4;
     height: 100%;
     width: 100%;
     border: solid 3px goldenrod;
     border-radius: 5%;
-    overflow: hidden; 
-  }
+    overflow: hidden; }
     .section2__divimg4:hover .section2__img {
-      transform: scale(1.1); 
-    }
+      transform: scale(1.1); }
   .section2__divimg5 {
     grid-area: img5;
     height: 100%;
     width: 100%;
     border: solid 3px goldenrod;
     border-radius: 5%;
-    overflow: hidden; 
-  }
+    overflow: hidden; }
     .section2__divimg5:hover .section2__img {
-      transform: scale(1.1); 
-    }
+      transform: scale(1.1); }
   .section2__divimg6 {
     grid-area: img6;
     height: 100%;
     width: 100%;
     border: solid 3px goldenrod;
     border-radius: 5%;
-    overflow: hidden; 
-  }
+    overflow: hidden; }
     .section2__divimg6:hover .section2__img {
-      transform: scale(1.1); 
-    }
+      transform: scale(1.1); }
   .section2__divimg7 {
     grid-area: img7;
     height: 100%;
     width: 100%;
     border: solid 3px goldenrod;
     border-radius: 5%;
-    overflow: hidden; 
-  }
+    overflow: hidden; }
     .section2__divimg7:hover .section2__img {
-      transform: scale(1.1); 
-    }
+      transform: scale(1.1); }
   .section2__divimg8 {
     grid-area: img8;
     height: 100%;
     width: 100%;
     border: solid 3px goldenrod;
     border-radius: 5%;
-    overflow: hidden; 
-  }
+    overflow: hidden; }
     .section2__divimg8:hover .section2__img {
-      transform: scale(1.1); 
-    }
+      transform: scale(1.1); }
   .section2__img {
     height: 100%;
     width: 100%;
-    transition: 0.5s all ease-in-out; 
-  }
-  
-/* Seccion 3 - Pagina servicios.html*/
+    transition: 0.5s all ease-in-out; }
 
 .section3 {
   width: 100%;
@@ -260,46 +227,37 @@ a:hover {
   background-color: #000;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; 
-}
+  background-position: center; }
   .section3__animation--left {
-    animation: slideInLeft 0.8s forwards; 
-  }
+    animation: slideInLeft 0.8s forwards; }
   .section3__animation--right {
-    animation: slideInRight 0.8s forwards; 
-  }
+    animation: slideInRight 0.8s forwards; }
   .section3__div1--h2 {
     font-family: "Bangers", cursive;
     letter-spacing: 0.4rem;
     font-size: 38px;
     color: goldenrod;
-    border-color: goldenrod !important; 
-  }
+    border-color: goldenrod !important; }
   .section3__div1--p {
     font-family: "Poppins", sans-serif;
     width: 100%;
     height: 20rem;
     line-height: 1.7rem;
     color: whitesmoke;
-    font-size: 18px; 
-  }
+    font-size: 18px; }
   .section3__div2--p {
     font-family: "Poppins", sans-serif;
     width: 100%;
     line-height: 1.7rem;
     margin-bottom: 1.3rem;
     color: whitesmoke;
-    font-size: 16px; 
-  }
+    font-size: 16px; }
   .section3__div2--h3 {
     font-family: "Bangers", cursive;
     letter-spacing: 0.4rem;
     margin-bottom: 0px;
     font-size: 24px;
-    color: goldenrod; 
-  }
-
-/* Seccion 4 - Pagina sucursales.html*/
+    color: goldenrod; }
 
 .section4 {
   color: whitesmoke;
@@ -313,8 +271,7 @@ a:hover {
   background-color: #000;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; 
-}
+  background-position: center; }
   .section4__h2 {
     letter-spacing: 0.5rem;
     font-size: 38px;
@@ -322,8 +279,7 @@ a:hover {
     margin-bottom: 3rem;
     font-family: "Bangers", cursive;
     color: goldenrod;
-    animation: slideInTop 0.8s forwards; 
-  }
+    animation: slideInTop 0.8s forwards; }
   .section4__titulo {
     letter-spacing: 0.3rem;
     width: 100%;
@@ -331,8 +287,7 @@ a:hover {
     font-size: 24px;
     padding-left: 15rem;
     color: goldenrod;
-    animation: slideInLeft 0.8s forwards; 
-  }
+    animation: slideInLeft 0.8s forwards; }
   .section4__div1 {
     height: 40%;
     width: 100%;
@@ -341,22 +296,19 @@ a:hover {
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 1.6rem;
-    margin-top: 1rem; 
-  }
+    margin-top: 1rem; }
   .section4__img {
     height: 100%;
     width: 40%;
     margin-left: 12rem;
-    border-radius: 5%; 
-  }
+    border-radius: 5%; }
   .section4__div1--p {
     height: 100%;
     width: 30%;
     line-height: 2rem;
     margin-left: 2rem;
     font-family: "Poppins", sans-serif;
-    font-size: 20px; 
-  }
+    font-size: 20px; }
   .section4__div2 {
     height: 40%;
     width: 100%;
@@ -365,129 +317,150 @@ a:hover {
     justify-content: flex-start;
     align-items: center;
     margin-top: 1rem;
-    margin-bottom: 3rem; 
-  }
+    margin-bottom: 3rem; }
   .section4__div2--p {
     height: 100%;
     width: 30%;
     line-height: 2rem;
     margin-left: 2rem;
     font-family: "Poppins", sans-serif;
-    font-size: 20px; 
-  }
-
-/* Seccion 5 - Pagina contacto.html*/
+    font-size: 20px; }
 
 .section5 {
   color: goldenrod;
   width: 100%;
   min-height: 100vh;
   display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  justify-items: stretch;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-image: url(../images/barbershop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; 
-}
-  .section5__map {
-    height: 50vh;
-    width: 100%;
-    flex: 1;
-    align-self: center; 
-  }
-    .section5__map--img {
-      height: 100%;
-      width: 100%;
-      overflow: hidden; 
-    }
-  .section5__contact {
-    height: 50vh;
-    width: 100%;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    background-color: goldenrod;
-    align-self: center;
-    color: white; 
-  }
-    .section5__contact--span {
-      width: 100%;
-      font-size: 24px;
-      margin-bottom: 1rem;
-      padding-left: 1rem; 
-    }
-  .section5__titulo {
-    width: 100%;
-    font-size: 32px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-left: 2rem; 
-  }
-  .section5__form {
-    height: 50vh;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    background-color: gray; 
-  }
-    .section5__form--lbl {
-      width: 50%;
-      margin-bottom: 0.7rem;
-      margin-left: 1rem;
-      height: 2rem; 
-    }
-    .section5__form--lbl2 {
-      height: 5rem;
-      text-align: start; 
-    }
-    .section5__form--button {
-      height: 2.5rem;
-      width: 5rem; 
-    }
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none; }
 
-/* Footer - Pagina footer.html*/
+.form {
+  background: rgba(0, 0, 0, 0.8);
+  width: 640px;
+  margin: 50px auto;
+  max-width: 97%;
+  border-radius: 10px;
+  padding: 55px 30px; }
+  .form__title {
+    letter-spacing: 6px;
+    border-bottom: 1px solid goldenrod;
+    display: inline-block;
+    padding-bottom: 8px;
+    margin-bottom: 32px; }
+  .form__half {
+    display: flex;
+    justify-content: space-between; }
+    .form__half--item {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 24px;
+      width: 48%; }
+      .form__half--item--input {
+        border-radius: 4px;
+        border: 1px solid goldenrod;
+        outline: 0;
+        padding: 16px;
+        width: 100%;
+        height: 44px;
+        background: transparent;
+        font-size: 17px;
+        color: goldenrod; }
+  .form__label {
+    display: block;
+    font-size: 13px;
+    letter-spacing: 3.5px;
+    margin-bottom: 16px; }
+  .form__full {
+    margin-bottom: 24px; }
+    .form__full--textarea {
+      background: transparent;
+      border-radius: 4px;
+      border: 1px solid goldenrod;
+      color: goldenrod;
+      outline: 0;
+      padding: 12px 16px;
+      width: 100%;
+      height: 200px;
+      font-size: 17px; }
+  .form__action {
+    margin-bottom: 32px; }
+    .form__action--input {
+      background: transparent;
+      border-radius: 4px;
+      border: 1px solid goldenrod;
+      color: goldenrod;
+      font-size: 13px;
+      font-weight: 600;
+      height: 44px;
+      letter-spacing: 3px;
+      outline: 0;
+      padding: 0 20px 0 22px;
+      margin-right: 10px; }
+      .form__action--input[type="submit"] {
+        background: goldenrod;
+        color: black; }
+  .form__icons {
+    text-decoration: none;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+    border-radius: 50%;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 600;
+    width: 38px;
+    margin-right: 10px; }
+    .form__icons--instagram:hover {
+      background: #f09433;
+      background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+      background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+      background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+      border: none; }
+    .form__icons--facebook:hover {
+      background: #3b5998;
+      border: none; }
+    .form__icons--whatsapp:hover {
+      background: #128c7e;
+      border: none; }
+
+.form .form__half .form__half--item--input:focus, .form .form__full .form__full--textarea:focus, .form .form__action .form__action--input[type="reset"]:hover {
+  background: rgba(255, 255, 255, 0.075); }
 
 .footer {
   border-top: 1px solid goldenrod;
   margin-bottom: 0;
-  margin-top: 1.5rem; 
-}
+  margin-top: 1.5rem; }
   .footer_ul {
-    margin-right: 0; 
-  }
+    margin-right: 0; }
   .footer_div {
     height: 5rem;
-    width: 40%; 
-  }
+    width: 40%; }
   .footer__logo {
     height: 80px;
-    width: 80px; 
-  }
+    width: 80px; }
   .footer__rrsslogo {
     height: 30px;
-    width: 30px; 
-  }
+    width: 30px; }
   .footer__color--instagram {
-    color: goldenrod; 
-  }
+    color: goldenrod; }
   .footer__color--facebook {
-    color: goldenrod; 
-  }
+    color: goldenrod; }
   .footer__color--whatsapp {
-    color: goldenrod; 
-  }
+    color: goldenrod; }
   .footer__rights {
     font-family: "Poppins", sans-serif;
     font-size: 12px;
     color: goldenrod;
     padding-left: 1.2rem;
-    padding-right: 1rem; 
-  }
-
-/* Animaciones */
+    padding-right: 1rem; }
 
 @keyframes slideInLeft {
   0% {
@@ -512,8 +485,6 @@ a:hover {
     opacity: 0; }
   100% {
     opacity: 1; } }
-
-/* Media Queries */
 
 @media screen and (max-width: 1023px) {
   .nav {
@@ -659,55 +630,6 @@ a:hover {
     margin-left: 0rem;
     padding: 1rem;
     font-size: 14px; }
-  .section5 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh; }
-  .section5__map {
-    height: 100%;
-    width: 100%;
-    flex: 1;
-    padding-top: 12vh; }
-  .section5__map--img {
-    object-fit: cover;
-    height: 50vh; }
-  .section5__contact {
-    height: 100%;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    background-color: goldenrod;
-    align-self: center;
-    color: white; }
-  .section5__titulo {
-    font-size: 28px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-left: 2rem; }
-  .section5__contact--span {
-    width: 100%;
-    font-size: 22px;
-    margin-bottom: 1rem;
-    padding-left: 1rem; }
-  .section5__form {
-    height: 100%;
-    width: 100%;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    background-color: gray; }
-  .section5__form--lbl {
-    width: 75%;
-    margin-bottom: 0.3rem;
-    margin-left: 1rem;
-    height: 2rem; }
-  .section5__form--lbl2 {
-    height: 4rem;
-    text-align: start; }
-  .section5__form--button {
-    height: 2.5rem;
-    width: 5rem; }
   .footer_div {
     height: 5rem;
     width: 65%; }
@@ -894,55 +816,6 @@ a:hover {
     margin-left: 0rem;
     padding: 1rem;
     font-size: 12px; }
-  .section5 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh; }
-  .section5__map {
-    height: 100%;
-    width: 100%;
-    flex: 1;
-    padding-top: 11vh; }
-  .section5__map--img {
-    height: 45vh;
-    padding-top: 0; }
-  .section5__contact {
-    height: 100%;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    background-color: goldenrod;
-    align-self: center;
-    color: white; }
-  .section5__titulo {
-    font-size: 26px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-left: 2rem; }
-  .section5__contact--span {
-    width: 100%;
-    font-size: 18px;
-    margin-bottom: 1rem;
-    padding-left: 1rem; }
-  .section5__form {
-    height: 100%;
-    width: 100%;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    background-color: gray; }
-  .section5__form--lbl {
-    width: 75%;
-    margin-bottom: 0.3rem;
-    margin-left: 1rem;
-    height: 2rem; }
-  .section5__form--lbl2 {
-    height: 4rem;
-    text-align: start; }
-  .section5__form--button {
-    height: 2.5rem;
-    width: 5rem; }
   .footer {
     flex-direction: column-reverse;
     justify-content: space-between;
@@ -971,3 +844,15 @@ a:hover {
     padding-right: 1rem; }
   .footer_ul {
     margin-bottom: 0.5rem; } }
+
+@media (max-width: 480px) {
+  .form__half {
+    flex-direction: column; }
+    .form__half--item {
+      width: 100%; }
+  .form__action {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem; }
+    .form__action--input {
+      width: 100%; } }

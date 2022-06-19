@@ -178,73 +178,7 @@
         padding: 1rem;
         font-size: 14px;
     }
-    .section5 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        min-height: 100vh;
-    }
-        
-    .section5__map {
-        height: 100%;
-        width: 100%;
-        flex: 1;
-        padding-top: 12vh;
-    }
-    
-    .section5__map--img {
-        object-fit: cover;
-        height: 50vh;
-    }
-    .section5__contact {
-        height: 100%;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        background-color: $color-tipografia;
-        align-self: center;
-        color: white;
-    }
-    
-    .section5__titulo {
-        font-size: 28px;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        padding-left: 2rem;
-    }
-    
-    .section5__contact--span {
-        width: 100%;
-        font-size: 22px;
-        margin-bottom: 1rem;
-        padding-left: 1rem;
-    }
-    
-    .section5__form {
-        height: 100%;
-        width: 100%;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        background-color: gray;
-    }
-    
-    .section5__form--lbl {
-        width: 75%;
-        margin-bottom: 0.3rem;
-        margin-left: 1rem;
-        height: 2rem;
-    }
-    
-    .section5__form--lbl2 {
-        height: 4rem;
-        text-align: start;
-    }
-    
-    .section5__form--button {
-        height: 2.5rem;
-        width: 5rem;
-    }
+
     .footer_div {
         height: 5rem;
         width: 65%;
@@ -485,74 +419,7 @@
         padding: 1rem;
         font-size: 12px;
     }
-    .section5 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        min-height: 100vh;
-    }
-    
-    .section5__map {
-        height: 100%;
-        width: 100%;
-        flex: 1;
-        padding-top: 11vh;
-    }
-    
-    .section5__map--img {
-        height: 45vh;
-        padding-top: 0;
-        
-    }
-    .section5__contact {
-        height: 100%;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        background-color: $color-tipografia;
-        align-self: center;
-        color: white;
-    }
-    
-    .section5__titulo {
-        font-size: 26px;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        padding-left: 2rem;
-    }
-    
-    .section5__contact--span {
-        width: 100%;
-        font-size: 18px;
-        margin-bottom: 1rem;
-        padding-left: 1rem;
-    }
-    
-    .section5__form {
-        height: 100%;
-        width: 100%;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        background-color: gray;
-    }
-    
-    .section5__form--lbl {
-        width: 75%;
-        margin-bottom: 0.3rem;
-        margin-left: 1rem;
-        height: 2rem;
-    }
-    
-    .section5__form--lbl2 {
-        height: 4rem;
-        text-align: start;
-    }
-    
-    .section5__form--button {
-        height: 2.5rem;
-        width: 5rem;
-    }
+
     .footer {
         flex-direction: column-reverse;
         justify-content: space-between;
@@ -588,5 +455,21 @@
     }
     .footer_ul {
         margin-bottom: 0.5rem;
+    }
+}
+@media (max-width: 480px) {
+    .form__half {
+        flex-direction: column;
+        &--item {
+            width: 100%;
+        }
+    }
+    .form__action{
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+        &--input {
+            width: 100%;
+        }
     }
 }

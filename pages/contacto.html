@@ -20,7 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -59,34 +59,34 @@
     <main>
 
         <section class="section5">
-
-            <div class="section5__map">
-                <iframe class="section5__map--img" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13146.989063702777!2d-58.52315505980225!3d-34.53463060923702!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x164bd484b934ed3f!2sSalon%20Vip%20Barbershop!5e0!3m2!1ses!2sar!4v1652407042365!5m2!1ses!2sar"
-                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-
-            <div class="section5__contact">
-                <p class="section5__titulo">CONTACTANOS!</p>
-                <span class="section5__contact--span">Info de contacto</span>
-                <span class="section5__contact--span">email</span>
-                <span class="section5__contact--span">telefono</span>
-                <span class="section5__contact--span">Direcciones</span>
-                <span class="section5__contact--span">RRSS</span>
-            </div>
-
-            <div class="section5__form">
-                <p class="section5__titulo">ESCRIBINOS!</p>
-                <form action=""></form>
-                    <label for="nombre"></label>
-                    <input class="section5__form--lbl" type="text" id="nombre" name="nombre" placeholder="Tu nombre">
-                    <label for="telefono"></label>
-                    <input class="section5__form--lbl" type="number" id="telefono" name="telefono" placeholder="Teléfono">
-                    <label for="email"></label>
-                    <input class="section5__form--lbl" type="email" id="email" name="email" placeholder="E-mail">
-                    <label for="msg"></label>
-                    <input class="section5__form--lbl section5__form--lbl2" type="text" id="msg" name="msg" placeholder="Mensaje">
-                    <button class="section5__form--lbl section5__form--button">Enviar</button>
-            </div>
+            <form class="form" action="">
+                <div class = "form__title">
+                    <h2>CONTACTANOS</h2>
+                </div>
+                <div class = "form__half">
+                    <div class="form__half--item">
+                        <label class="form__label" for="nombre">NOMBRE</label>
+                        <input class="form__half--item--input" type="text" id="nombre">
+                    </div>
+                    <div class="form__half--item">
+                        <label class="form__label" for="email">EMAIL</label>
+                        <input class="form__half--item--input" type="text" id="email">
+                    </div>
+                </div>
+                <div class="form__full">
+                    <label class="form__label" for="message">MENSAJE</label>
+                    <textarea class="form__full--textarea" name="" id="message"></textarea>
+                </div>
+                <div class="form__action">
+                    <input class="form__action--input" type="submit" value="ENVIAR MENSAJE">
+                    <input class="form__action--input" type="reset" value="BORRAR">
+                </div>
+                <div class="">
+                    <a class="fa fa-instagram form__icons form__icons--instagram" href="https://www.instagram.com/salonvipbarbershop/" target="_blank"></a>
+                    <a class="fa fa-facebook form__icons form__icons--facebook" href="https://www.facebook.com/salonvipb/" target="_blank"></a>
+                    <a class="fa fa-whatsapp form__icons form__icons--whatsapp" href="https://wa.me/1144563687/" target="_blank"></a>
+                </div>
+            </form>   
         </section>
 
     </main>
