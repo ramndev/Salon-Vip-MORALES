@@ -6,7 +6,7 @@
     justify-content: flex-start;
     align-items: center;
     padding-top: 78.59px;
-    background-color: $color-fondo;
+    background-image: url(/images/services.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -15,6 +15,11 @@
     }
     &__animation--right {
         animation: slideInRight 0.8s forwards;
+    }
+    &__servicebox {
+        background: rgba(0,0,0,0.7);
+        border-radius: 12px;
+        padding-left: var(--bs-gutter-x,1.75rem) !important;
     }
     &__div1--h2 {
         font-family: $font-titulos;
@@ -26,7 +31,7 @@
     &__div1--p {
         font-family: $font-p;
         width: 100%;
-        height: 20rem;
+        height: 15rem;
         line-height: 1.7rem;
         color: whitesmoke;
         font-size: 18px;

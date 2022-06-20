@@ -6,25 +6,13 @@
     &_ul {
         margin-right: 0;
     }
-
     &_div {
         height: 5rem;
         width: 40%;
     }
-
     &__logo {
         height: 80px;
         width: 80px;
-    }
-
-    &__rrsslogo{
-        height: 30px;
-        width: 30px;
-    }
-    @each $name-color, $logocolor in $colorrrss {
-        &__color--#{$name-color} {
-            color: $logocolor
-        }
     }
     &__rights {
         font-family: $font-p;
