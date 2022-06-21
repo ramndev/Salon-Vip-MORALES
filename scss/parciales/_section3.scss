@@ -6,7 +6,7 @@
     justify-content: flex-start;
     align-items: center;
     padding-top: 78.59px;
-    background-image: url(/images/services.jpg);
+    background-image: url(../images/services.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -20,6 +20,7 @@
         background: rgba(0,0,0,0.7);
         border-radius: 12px;
         padding-left: var(--bs-gutter-x,1.75rem) !important;
+        padding-right: var(--bs-gutter-x,1.75rem) !important;
     }
     &__div1--h2 {
         font-family: $font-titulos;
@@ -35,6 +36,8 @@
         line-height: 1.7rem;
         color: whitesmoke;
         font-size: 18px;
+        text-align: justify;
+        padding-right: 4rem;
     }
     &__div2--p {
         font-family: $font-p;
@@ -43,6 +46,7 @@
         margin-bottom: 1.3rem;
         color: whitesmoke;
         font-size: 16px;
+        text-align: justify;
     }
     &__div2--h3 {
         font-family: $font-titulos;
